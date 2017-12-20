@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c6bde2</color>
+    <color name="colorPrimaryDark">#aaa0ca</color>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="colorButton">#9690AC</color>
+
+
+    <!--Other Color-->
+    <color name="grey200">#EEEEEE</color>
+    <color name="grey300">#E0E0E0</color>
+    <color name="grey400">#BDBDBD</color>
+    <color name="grey500">#9E9E9E</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+</resources>

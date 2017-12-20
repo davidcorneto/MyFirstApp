@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="title_pengenalan_layout">Pengenalan Layout</string>
+    <string name="title_pengenalan_intent">Pengenalan Intent</string>
+    <string name="title_asset">Final</string>
+    <string name="linear_vertical_dan_horizontal">Linear Layout Vertical dan Horizontal</string>
+    <string name="kursus_terbaru">Kursus Terbaru</string>
+    <string name="selalu_ada_yang_baru_loh">Selalu ada yang baru loh!</string>
+    <string name="code_course_camp">Code Course Camp</string>
+    <string name="kursus_terlaris">Kursus Terlaris</string>
+    <string name="margodev_sharing_session">MargoDev Sharing Session</string>
+    <string name="title_linearlayout">Linear Layout Nested</string>
+    <string name="title_relativelayout">Relative Layout</string>
+    <string name="artikel">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+
+        \n\n
+        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+        \n\n
+        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        \n\n
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</string>
+    <string name="by_code_margonda">By Code Margonda</string>
+    <string name="code_margonda">Code Margonda</string>
+    <string name="code_1">Code 1</string>
+    <string name="code_2">Code 2</string>
+    <string name="code_3">Code 3</string>
+    <string name="code_4">Code 4</string>
+    <string name="code_5">Code 5</string>
+</resources>

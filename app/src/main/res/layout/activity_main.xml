@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="codemargonda.david.com.myfirstapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5a000000" />
+    <!-- weight sum digunakan untuk menentukan jumlah maksimal dari weight di suatu layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/playout"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/size16dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorButton"
+            android:gravity="center"
+            android:padding="@dimen/size16dp"
+            android:text="@string/title_pengenalan_layout"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size16sp" />
+
+
+        <TextView
+            android:id="@+id/passet"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/size16dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorButton"
+            android:gravity="center"
+            android:padding="@dimen/size16dp"
+            android:text="@string/title_asset"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/codemargonda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#51000000"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="@string/by_code_margonda"
+        android:textColor="@color/grey400"
+        android:textSize="@dimen/size14sp" />
+
+</RelativeLayout>
